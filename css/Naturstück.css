@@ -1,0 +1,36 @@
+/*nav Anfang*/
+html, body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+	margin:0pX;
+}
+
+nav {
+    background-color: #ee6e73;
+    width: 100%;
+	
+}
+
+nav ul {
+	list-style-type: none;
+    margin:0px;
+	padding:0px;
+	display: flex;
+}
+
+nav ul li {
+}
+
+nav ul li  a {
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+	padding: 10px 20px;
+	margin: 10px 10px;
+}
+
+ul img {
+	height:60px;
+	width: 60px;
+}
+	
+/*nav Ende*/
