@@ -5,7 +5,7 @@ html, body {
 }
 
 nav {
-    background-color: #ee6e73;
+    background-color: white;
     width: 100%;
 	
 }
@@ -23,7 +23,7 @@ nav ul li {
 nav ul li  a {
 	text-decoration: none;
 	display: inline-block;
-	color: white;
+	color: black;
 	padding: 10px 20px;
 	margin: 10px 10px;
 }
@@ -41,7 +41,6 @@ ul img {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
   position: relative;
   margin: auto;
 }
@@ -130,6 +129,15 @@ ul img {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+.text.firstslide {
+	font-size: 80px;
+	color: #405908;
+	text-align: right;
+	bottom: 90px;
+	padding: 90px;
+	text-shadow: 0.0em 0.1em 0.2em black;
 }
 
 /*Slideshow Ende */
