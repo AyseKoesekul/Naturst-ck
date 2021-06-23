@@ -141,3 +141,14 @@ ul img {
 }
 
 /*Slideshow Ende */
+
+/*Produkt1 */
+.schoko{
+	width: 520px;
+	float: left;
+}
+
+.produkt1text {
+	text-decoration: none;
+	top: 100px;
+}
