@@ -140,6 +140,14 @@ ul img {
 	text-shadow: 0.0em 0.1em 0.2em black;
 }
 
+.text.slide1{
+	font-size: 90px;
+	color: #405908;
+	text-align: right;
+	bottom: 110px;
+	right: 90px;
+}
+
 /*Slideshow Ende */
 
 /*Produkt1 */
@@ -150,5 +158,4 @@ ul img {
 
 .produkt1text {
 	text-decoration: none;
-	top: 100px;
 }
