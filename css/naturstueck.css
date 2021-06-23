@@ -131,15 +131,6 @@ ul img {
   to {opacity: 1}
 }
 
-.text.firstslide {
-	font-size: 80px;
-	color: #405908;
-	text-align: right;
-	bottom: 90px;
-	padding: 90px;
-	text-shadow: 0.0em 0.1em 0.2em black;
-}
-
 .text.slide1{
 	font-size: 90px;
 	color: #405908;
