@@ -2,6 +2,7 @@
 html, body {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 	margin:0pX;
+	background-color: #d9c6b0
 }
 
 nav {
@@ -149,4 +150,138 @@ ul img {
 
 .produkt1text {
 	text-decoration: none;
+}
+
+/* Unsere Werte */
+
+#Hände {
+	position: relative;
+	width:100%;
+}
+
+.wertetext {
+	
+	font-size: 90px;
+	color: white;
+}
+
+.werte-container {
+    float: left;
+    width: 25%;
+    margin-right: 2.5;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.h1 {
+    font-size: medium;
+}
+
+.werte-icon {
+	width: 70px;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+}
+
+/* Über uns */
+
+.h1 {
+        font-size: medium;
+    }
+    
+.ueber_uns_Titel  {
+        color: #405908;
+		font-size: large;
+}
+    
+.unsere_namen {
+        color: #405908;
+        font-size: small;
+    }
+    
+.zitate {
+        color: black;
+        font-size: xx-small;
+    }
+.ueber_uns-container {
+        float: left;
+        width: 30%;
+        margin-right: 3.33333%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+	
+/*Footer*/
+
+#myFooter {
+    background-color: #405908;
+    color: white;
+    padding-top: 30px;
+}
+
+#myFooter .footer-copyright {
+    background-color: #405908;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .row {
+    margin-bottom: 60px;
+}
+
+#myFooter .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h3 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter h4 a {
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#footerimg {
+    height: 200px;
+    width: 200px;
+}
+
+.icon {
+    height: 40px;
+    width: 40px;
+}
+
+.iconf {
+    height: 45px;
+    width: 45px;
 }
