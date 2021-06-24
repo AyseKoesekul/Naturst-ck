@@ -2,7 +2,8 @@
 html, body {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 	margin:0pX;
-	background-color: #d9c6b0
+	background-color: #d9c6b0;
+	
 }
 
 nav {
@@ -133,11 +134,28 @@ ul img {
 }
 
 .text.slide1{
-	font-size: 90px;
+	font-size: 60px;
 	color: #405908;
-	text-align: right;
-	bottom: 110px;
-	right: 90px;
+	text-align: left;
+	line-height: 96%;
+	letter-spacing: 5px;
+	left: 60%;
+	bottom: 20%;
+}
+
+.button {
+	font-family:Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+	font-size:30px; 
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:60px;
+	padding-right:60px;
+	border:0px;
+	background-color:#a69177;
+	color:#fff;
+	border-radius:5px;
+	text-decoration: none;
+	box-shadow: 2px 2px 4px black;
 }
 
 /*Slideshow Ende */
@@ -145,11 +163,13 @@ ul img {
 /*Produkt1 */
 .schoko{
 	width: 520px;
-	float: left;
 }
 
-.produkt1text {
-	text-decoration: none;
+
+/*Produkt2*/
+.hell{
+	width: 520px;
+	
 }
 
 /* Unsere Werte */
