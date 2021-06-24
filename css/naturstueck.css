@@ -185,6 +185,10 @@ ul img {
 }
 
 /* Über uns */
+.portrait {
+	display: flex;
+	justify-content: center;
+}
 
 .h1 {
         font-size: medium;
@@ -192,20 +196,22 @@ ul img {
     
 .ueber_uns_Titel  {
         color: #405908;
-		font-size: large;
+		font-size: 40px;
+		display: inline-block;
+		
 }
     
 .unsere_namen {
         color: #405908;
-        font-size: small;
+		text-align: center;
     }
     
 .zitate {
         color: black;
-        font-size: xx-small;
+		text-align: center;
     }
 .ueber_uns-container {
-        float: left;
+		float: right;
         width: 30%;
         margin-right: 3.33333%;
         padding: 20px;
@@ -215,13 +221,12 @@ ul img {
 /*Footer*/
 
 #myFooter {
-    background-color: #405908;
+    background-color: #2E5900;
     color: white;
     padding-top: 30px;
 }
 
 #myFooter .footer-copyright {
-    background-color: #405908;
     padding-top: 3px;
     padding-bottom: 3px;
     text-align: center;
@@ -231,9 +236,9 @@ ul img {
     margin-bottom: 60px;
 }
 
-#myFooter .navbar-brand {
-    margin-top: 45px;
-    height: 65px;
+#logo-image {
+    width: 200px;
+    height: 200px;
 }
 
 #myFooter .footer-copyright p {
@@ -247,14 +252,14 @@ ul img {
     line-height: 1.7;
 }
 
-#myFooter h3 {
+#myFooter h5 {
     font-size: 18px;
     color: white;
     font-weight: bold;
     margin-top: 30px;
 }
 
-#myFooter h4 a {
+#myFooter h3 a {
     font-size: 50px;
     text-align: center;
     color: #fff;
@@ -271,17 +276,19 @@ ul img {
     color: white;
 }
 
-#footerimg {
-    height: 200px;
-    width: 200px;
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
 }
 
-.icon {
-    height: 40px;
-    width: 40px;
+.content {
+    flex: 1 0 auto;
+    -webkit-flex: 1 0 auto;
+    min-height: 200px;
 }
 
-.iconf {
-    height: 45px;
-    width: 45px;
+#myFooter {
+    flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
 }
