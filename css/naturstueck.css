@@ -374,26 +374,5 @@ hr {
 	font-size: 40px;
 	
 }
-.firstslide{
-	position: relative;
-}
 
-/*#keyvisual{
-	-moz-transform:rotate(90deg); 
-	-webkit-transform:rotate(90deg);
-	-o-transform:rotate(90deg); 
-	-ms-transform:rotate(90deg); 
-	transform:rotate(90deg); 
-}
-*/
-}
-/*button*/
-
-.dunkelbutton{
-	padding-left:20%;
-}
-
-.hellbutton{
-	padding-bottom: 10%;
-	padding-left: 10%;
 }
