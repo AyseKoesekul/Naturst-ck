@@ -4,93 +4,101 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="css/bootstrap-grid.css" rel="stylesheet">
-	<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="css/bootstrap-grid.css" rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="css/naturstueck.css">
     <script src="js/code.js"></script>
     <title>Naturstück</title>
 </head>
 
-    <body>
-            <header>
-                <nav class="d-flex">
-				<img src="img/thumbnail.png" class="brand-link" alt="Logo">
-                    <ul>
-                        <li><a href="#Produkte-nav">Produkte</a></li>
-                        <li><a href="#Werte-nav">Werte</a></li>
-                        <li><a href="#Ueber-uns-nav">Über Uns</a></li>
-                    </ul>
-                </nav>
-            </header>
+<body>
+
+    <header class="header">
+        <img src="img/thumbnail.png" class="brand-link" alt="Logo">
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="#Produkte-nav">Produkte</a></li>
+            <li><a href="#Werte-nav">Werte</a></li>
+            <li><a href="#Ueber-uns-nav">Über Uns</a></li>
+        </ul>
+    </header>
 
 
-	<div>
-    <img src="img/1.png" style="width:100%" id="keyvisual">
-		<section class="firstslide">NATURSTÜCK.<br>VEGAN.<br>NATÜRLICH.<br>ECHT.<br><br>
-	<button type="button" class="button">Finde deinen Geschmack</button></section>
-	</div>
-	
-<!--Produkt1-->
+    <div>
+        <img src="img/1.png" style="width:100%" id="keyvisual">
+        <section class="firstslide">NATURSTÜCK.<br>VEGAN.<br>NATÜRLICH.<br>ECHT.<br><br>
+            <button type="button" class="button">Finde deinen Geschmack</button></section>
+    </div>
+
+    <!--Produkt1-->
     <div id="Produkte-nav" class="row">
-            <div class="col-sm-12 col-lg-6 produkt">
-				<img src ="img/Riegel_schoko_.png" class="schoko">
-			</div>
-			<ul class="produkt1text col-sm-12 col-lg-3 d-flex flex-column justify-content-center ">				
-				<li>36% Haferflocken</li>
-				<li>11% Mandeln</li>
-				<li>5% Walnüsse</li>
-			</ul>
+        <div class="col-sm-12 col-lg-6 produkt">
+            <img src="img/Riegel_schoko_.png" class="schoko">
+        </div>
+        <ul class="produkt1text col-sm-12 col-lg-3 d-flex flex-column justify-content-center ">
+            <li>36% Haferflocken</li>
+            <li>11% Mandeln</li>
+            <li>5% Walnüsse</li>
+        </ul>
 
-			<ul class="produkt1text col-sm-12 col-lg-3 d-flex flex-column justify-content-center">
-				<li>33% Zartbitterschokolade</li>
-				<li>13% Ahornsirup</li>
-				<li>Prise Meersalz</li>
-			</ul>
-	
-<!--Produkt2-->
-		<ul class="produkt2text col-lg-3 d-flex flex-column justify-content-center align-items-right">				
-				<li>36% Haferflocken</li>
-				<li>11% Mandeln</li>
-				<li>16% Banane</li>
-		</ul>
+        <ul class="produkt1text col-sm-12 col-lg-3 d-flex flex-column justify-content-center">
+            <li>33% Zartbitterschokolade</li>
+            <li>13% Ahornsirup</li>
+            <li>Prise Meersalz</li>
+        </ul>
 
-		<ul class="produkt2text col-lg-3 d-flex flex-column justify-content-center align-items-right">
-				<li>33% Chiasamen</li>
-				<li>9% Puffreis</li>
-				<li>Prise Meersalz</li>
-		</ul>
-		<div class="col-sm-12 col-lg-6 produkt">
-			<img src ="img/Riegel_hell.png" class="hell">
-		</div>	
-	</div>
-<!-- Unsere Werte -->
-<div id="Werte-nav">
-<div class="wertetext">Unsere Werte</div>
-<img src="img/Hände.jpg" id="Hände">
+        <!--Produkt2-->
+        <ul class="produkt2text col-lg-3 d-flex flex-column justify-content-center align-items-right">
+            <li>36% Haferflocken</li>
+            <li>11% Mandeln</li>
+            <li>16% Banane</li>
+        </ul>
 
-</div>
-<div class="row wertepacket">
-            <div class="werte-container col-lg-3">
-                <img src="img/vegan.png" class="werte-icon">
-                <div>
-                    <p><h2>Ernährung ist gesund!</h2></p>
-                    <p>Mehere Studien beweisen, dass vegane Ernährung mehr Antioxidantien, Potassium, Magnesium, Folsäure und andere essentielle Vitamine und Mineralien enthält.</p>
-                    <p>Deshalb ist das NATURSTÜCK eine perfekte Ergänzung zu deinen täglichen Nährstoffen.</p>
-                </div>
+        <ul class="produkt2text col-lg-3 d-flex flex-column justify-content-center align-items-right">
+            <li>33% Chiasamen</li>
+            <li>9% Puffreis</li>
+            <li>Prise Meersalz</li>
+        </ul>
+        <div class="col-sm-12 col-lg-6 produkt">
+            <img src="img/Riegel_hell.png" class="hell">
+        </div>
+    </div>
+    <!-- Unsere Werte -->
+    <div id="Werte-nav">
+        <div class="wertetext">Unsere Werte</div>
+        <img src="img/Hände.jpg" id="Hände">
+
+    </div>
+    <div class="row wertepacket">
+        <div class="werte-container col-lg-3">
+            <img src="img/vegan.png" class="werte-icon">
+            <div>
+                <p>
+                    <h2>Ernährung ist gesund!</h2>
+                </p>
+                <p>Mehere Studien beweisen, dass vegane Ernährung mehr Antioxidantien, Potassium, Magnesium, Folsäure und andere essentielle Vitamine und Mineralien enthält.</p>
+                <p>Deshalb ist das NATURSTÜCK eine perfekte Ergänzung zu deinen täglichen Nährstoffen.</p>
             </div>
+        </div>
 
-            <div class= "werte-container col-lg-3">
-                <img src="img/nachhaltigkeit.png" class="werte-icon">
-                <div>
-                    <p><h2>Wir glauben, dass der Schutz unseres Planeten beim Kleinen anfängt!</h2></p>
-                    <p>Bei der Herstellung des NATURSTÜCKs werden Produkte aus ökologisch-kontrolliertem Anbau verwendet.</p>
-                    <p>Verpackt wird der Riegel in umweltfreundliches, plastikfreies und kompostierbares Haushaltspapier.</p></div>
+        <div class="werte-container col-lg-3">
+            <img src="img/nachhaltigkeit.png" class="werte-icon">
+            <div>
+                <p>
+                    <h2>Wir glauben, dass der Schutz unseres Planeten beim Kleinen anfängt!</h2>
+                </p>
+                <p>Bei der Herstellung des NATURSTÜCKs werden Produkte aus ökologisch-kontrolliertem Anbau verwendet.</p>
+                <p>Verpackt wird der Riegel in umweltfreundliches, plastikfreies und kompostierbares Haushaltspapier.</p>
             </div>
+        </div>
 
         <div class="werte-container col-lg-3">
             <img src="img/gluten frei.png" class="werte-icon">
             <div>
-                <p><h2>Hast du eine Gluten-<br>unverträglichkeit?</h2></p>
+                <p>
+                    <h2>Hast du eine Gluten-<br>unverträglichkeit?</h2>
+                </p>
                 <p>NATURSTÜCK bietet eine Möglichkeit, die Ernährung abwechslungsreicher zu gestalten und zu verfeiernern.</p>
                 <p>Um die Vermischung mit anderen Getreidearten zu vermeiden, gehen wir mit besonderer Sorgfalt vor – vom Saatgut bis zur Verpackung.</p>
             </div>
@@ -99,57 +107,59 @@
         <div class="werte-container col-lg-3">
             <img src="img/gmo.png" class="werte-icon">
             <div>
-                <p><h2>Wir garantieren, dass unser Riegel 100% GVO-frei ist!</h2></p>
+                <p>
+                    <h2>Wir garantieren, dass unser Riegel 100% GVO-frei ist!</h2>
+                </p>
                 <p>Bei der Auswahl der Zutaten für das NATURSTÜCK wird besonders darauf geachtet, dass beim Anbau weder ⁠Pestizide⁠, noch Kunstdünger eingesetzt wird.</p>
             </div>
         </div>
 
-</div>
+    </div>
 
 
-<!-- Über uns-->
-<div id="Ueber-uns-nav">
-<section class="container">
-<h2 class="ueber_uns_Titel col-lg-12 d-flex justify-content-center">Über uns</h2>
-	<div class="row">
-            <div class="ueber_uns-container col-md-4">
-                <img src="img/anastasia.png" class="portrait">
-                <div>
-                    <p>
-                        <h2 class="unsere_namen">Anastasia</h2>
-                    </p>
-                    <p class="zitate">”Ob du es glaubst oder nicht, ich war ein Junk-Food-Junkie, bis ich entdeckte, wie natürliche Lebensmittel meinen Geist, Körper und Geist belebten. Und sich gut zu fühlen, das ist alles was wirklich zählt.”</p>
+    <!-- Über uns-->
+    <div id="Ueber-uns-nav">
+        <section class="container">
+            <h2 class="ueber_uns_Titel col-lg-12 d-flex justify-content-center">Über uns</h2>
+            <div class="row">
+                <div class="ueber_uns-container col-md-4">
+                    <img src="img/anastasia.png" class="portrait">
+                    <div>
+                        <p>
+                            <h2 class="unsere_namen">Anastasia</h2>
+                        </p>
+                        <p class="zitate">”Ob du es glaubst oder nicht, ich war ein Junk-Food-Junkie, bis ich entdeckte, wie natürliche Lebensmittel meinen Geist, Körper und Geist belebten. Und sich gut zu fühlen, das ist alles was wirklich zählt.”</p>
+                    </div>
+                </div>
+
+
+
+                <div class="ueber_uns-container col-md-4">
+                    <img src="img/daria.png" class="portrait">
+                    <div>
+                        <p>
+                            <h2 class="unsere_namen">Daria</h2>
+                        </p>
+                        <p class="zitate">“Rückblickend ist die beste Lektion, immer auf die Intuition zu hören und der Leidenschaften im Leben zu folgen. Man muss keine Angst haben, anders und innovativ zu sein. Probiere etwas Neues aus, auch wenn du nicht weißt, was
+                            du tust! Sei dir sicher, Spaß zu haben und umgebe dich mit Menschen, die deine Träume unterstützen.”</p>
+                    </div>
+                </div>
+
+
+                <div class="ueber_uns-container col-md-4">
+                    <img src="img/ayse.png" class="portrait">
+                    <div>
+                        <p>
+                            <h2 class="unsere_namen">Ayse</h2>
+                        </p>
+                        <p class="zitate">“Nachdem ich die Gänge von Lebensmittelgeschäften durchforstet habe, vertiefte ich mich in meine eigene Produktentwicklung. Natürliche Lebensmittel sollten, meiner Meinung nach, Spaß machen, genussreich und auch gut für dich sein.”</p>
+                    </div>
                 </div>
             </div>
+        </section>
+    </div>
 
-	
-	
-            <div class="ueber_uns-container col-md-4">
-                <img src="img/daria.png" class="portrait">
-                <div>
-                    <p>
-                        <h2 class="unsere_namen">Daria</h2>
-                    </p>
-                    <p class="zitate">“Rückblickend ist die beste Lektion, immer auf die Intuition zu hören und der Leidenschaften im Leben zu folgen. Man muss keine Angst haben, anders und innovativ zu sein. Probiere etwas Neues aus, auch wenn du nicht weißt, was du tust!
-                        Sei dir sicher, Spaß zu haben und umgebe dich mit Menschen, die deine Träume unterstützen.”</p>
-                </div>
-            </div>
-	
-	
-            <div class="ueber_uns-container col-md-4">
-                <img src="img/ayse.png" class="portrait">
-                <div>
-                    <p>
-                        <h2 class="unsere_namen">Ayse</h2>
-                    </p>
-                    <p class="zitate">“Nachdem ich die Gänge von Lebensmittelgeschäften durchforstet habe, vertiefte ich mich in meine eigene Produktentwicklung. Natürliche Lebensmittel sollten, meiner Meinung nach, Spaß machen, genussreich und auch gut für dich sein.”</p>
-                </div>
-            </div>
-	</div>
-</section>
-</div>
-
-<!--Sign-up-->
+    <!--Sign-up-->
     <form action="action_page.php" style="border:1px solid #ccc">
         <div class="container">
             <p>
@@ -174,7 +184,7 @@
         </div>
     </form>
 
-<!--Footer-->
+    <!--Footer-->
     <div class="content col-lg-12">
     </div>
     <footer id="myFooter">
@@ -227,6 +237,6 @@
             <p>©️ 2021 | Naturstück, all rights reserved | Do Not Sell Our Personal Information </p>
         </div>
     </footer>
-    </body>
+</body>
 
 </html>

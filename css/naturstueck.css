@@ -1,97 +1,223 @@
 /*nav Anfang*/
-html, body {
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-	margin:0pX;
-	background-color: #d9c6b0;
+
+html,
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    margin: 0pX;
+    background-color: #d9c6b0;
 }
 
-nav {
-    background-color: white;
+.brand-link {
+    padding-left: 10px;
+    height: 110px;
+    width: 120px;
+}
+
+
+/*nav Anfang*/
+
+a {
+    color: #000;
+}
+
+
+/* header */
+
+.header {
+    background-color: #fff;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
+    position: fixed;
     width: 100%;
-	
+    z-index: 3;
 }
 
-nav ul {
-	list-style-type: none;
-    margin:0px;
-	padding:0px;
-	display: flex;
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #fff;
 }
 
-nav ul li {
+.header li a {
+    display: block;
+    padding: 20px 20px;
+    border-right: 1px solid #f4f4f4;
+    text-decoration: none;
 }
 
-nav ul li  a {
-	text-decoration: none;
-	display: inline-block;
-	color: black;
-	padding: 10px 20px;
-	margin: 10px 10px;
+.header li a:hover,
+.header .menu-btn:hover {
+    background-color: #f4f4f4;
 }
 
-.brand-link{
-	padding-left: 10px;
-	height:60px;
-	width: 60px;
+.header .logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none;
 }
-	
+
+
+/* menu */
+
+.header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+    padding-top: 5px;
+}
+
+
+/* menu icon */
+
+.header .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+}
+
+.header .menu-icon .navicon {
+    background: #333;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+    background: #333;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+    top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+    top: -5px;
+}
+
+
+/* menu btn */
+
+.header .menu-btn {
+    display: none;
+}
+
+.header .menu-btn:checked~.menu {
+    max-height: 240px;
+}
+
+.header .menu-btn:checked~.menu-icon .navicon {
+    background: transparent;
+}
+
+.header .menu-btn:checked~.menu-icon .navicon:before {
+    transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked~.menu-icon .navicon:after {
+    transform: rotate(45deg);
+}
+
+.header .menu-btn:checked~.menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked~.menu-icon:not(.steps) .navicon:after {
+    top: 0;
+}
+
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+    .header li {
+        float: left;
+    }
+    .header li a {
+        padding: 20px 30px;
+    }
+    .header .menu {
+        clear: none;
+        float: right;
+        max-height: none;
+    }
+    .header .menu-icon {
+        display: none;
+    }
+}
+
+
 /*nav Ende*/
 
-.firstslide{
-	position: absolute;
-	font-size: 60px;
-	color: #405908;
-	text-align: left;
-	line-height: 96%;
-	letter-spacing: 5px;
-	left: 60%;
-	bottom: 0%;
-	top: 40%;
+.firstslide {
+    position: absolute;
+    font-size: 60px;
+    color: #405908;
+    text-align: left;
+    line-height: 96%;
+    letter-spacing: 5px;
+    left: 60%;
+    bottom: 0%;
+    top: 40%;
 }
 
 .button {
-	font-family:Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
-	font-size:30px; 
-	padding-top:15px;
-	padding-bottom:15px;
-	padding-left:60px;
-	padding-right:60px;
-	border:0px;
-	background-color:#a69177;
-	color:#fff;
-	border-radius:5px;
-	text-decoration: none;
-	box-shadow: 2px 2px 4px black;
+    font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border: 0px;
+    background-color: #a69177;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 2px 2px 4px black;
 }
 
+
 /*Produkt1 */
-.schoko{
-	width: 450px;
-	padding-left: 10px;
+
+.schoko {
+    width: 450px;
+    padding-left: 10px;
 }
 
 
 /*Produkt2*/
-.hell{
-	width: 450px;
-	
+
+.hell {
+    width: 450px;
 }
 
 .produkt2text {
-	padding-left: 120px;
+    padding-left: 120px;
 }
+
 
 /* Unsere Werte */
 
 #Hände {
-	width:100%;
+    width: 100%;
 }
 
 .wertetext {
-	position: absolute;
-	left: 30%;
-	font-size: 90px;
-	color: white;
+    position: absolute;
+    left: 30%;
+    font-size: 90px;
+    color: white;
 }
 
 .wertepacket {
@@ -103,42 +229,45 @@ nav ul li  a {
 }
 
 .werte-icon {
-	width: 70px;
-	height: 70px;
-	display: flex;
-	justify-content: center;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
 }
 
+
 /* Über uns */
+
 .portrait {
-	display: flex;
-	justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .h1 {
-        font-size: medium;
-    }
-    
-.ueber_uns_Titel  {
-        color: #405908;
-		font-size: 40px;
-		display: inline-block;
-		
+    font-size: medium;
 }
-    
+
+.ueber_uns_Titel {
+    color: #405908;
+    font-size: 40px;
+    display: inline-block;
+}
+
 .unsere_namen {
-        color: #405908;
-		text-align: center;
-    }
-    
+    color: #405908;
+    text-align: center;
+}
+
 .zitate {
-        color: black;
-		text-align: center;
-    }
+    color: black;
+    text-align: center;
+}
+
 .ueber_uns-container {
     padding: 20px;
-	text-align: center;
-    }
+    text-align: center;
+}
+
 
 /*Sign-up*/
 
@@ -283,7 +412,8 @@ hr {
         width: 100%;
     }
 }
-	
+
+
 /*Footer*/
 
 #myFooter {
@@ -359,20 +489,17 @@ hr {
     -webkit-flex: 0 0 auto;
 }
 
-@media (max-width: 768px){
-	nav ul li{
-	flex-direction: column;
-	text-align: center;
-	}
-
-	.brand-link{
-		width: 70px;
-		height: 70px;
-		padding: 10px;
-	}
-.wertetext{
-	font-size: 40px;
-	
-}
-
+@media (max-width: 768px) {
+    nav ul li {
+        flex-direction: column;
+        text-align: center;
+    }
+    .brand-link {
+        width: 70px;
+        height: 70px;
+        padding: 10px;
+    }
+    .wertetext {
+        font-size: 40px;
+    }
 }
