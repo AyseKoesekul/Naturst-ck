@@ -66,7 +66,9 @@ a {
     clear: both;
     max-height: 0;
     transition: max-height .2s ease-out;
-    padding-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
 }
 
 
