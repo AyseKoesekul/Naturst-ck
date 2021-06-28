@@ -358,3 +358,42 @@ hr {
     flex: 0 0 auto;
     -webkit-flex: 0 0 auto;
 }
+
+@media (max-width: 768px){
+	nav ul li{
+	flex-direction: column;
+	text-align: center;
+	}
+
+	.brand-link{
+		width: 70px;
+		height: 70px;
+		padding: 10px;
+	}
+.wertetext{
+	font-size: 40px;
+	
+}
+.firstslide{
+	position: relative;
+}
+
+/*#keyvisual{
+	-moz-transform:rotate(90deg); 
+	-webkit-transform:rotate(90deg);
+	-o-transform:rotate(90deg); 
+	-ms-transform:rotate(90deg); 
+	transform:rotate(90deg); 
+}
+*/
+}
+/*button*/
+
+.dunkelbutton{
+	padding-left:20%;
+}
+
+.hellbutton{
+	padding-bottom: 10%;
+	padding-left: 10%;
+}
