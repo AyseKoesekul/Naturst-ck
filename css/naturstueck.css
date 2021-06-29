@@ -2,17 +2,15 @@
 
 html,
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     margin: 0pX;
     background-color: #d9c6b0;
-	
+    font-family: "Montserrat", "Helvetica";
 }
-
 
 .brand-link {
     padding-left: 10px;
-    height: 110px;
-    width: 120px;
+    height: 100px;
+    width: 110px;
 }
 
 
@@ -26,11 +24,15 @@ a {
 /* header */
 
 .header {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.7);
     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
     position: fixed;
     width: 100%;
     z-index: 3;
+}
+
+.header ul menu {
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 .header ul {
@@ -38,7 +40,6 @@ a {
     padding: 0;
     list-style: none;
     overflow: hidden;
-    background-color: #fff;
 }
 
 .header li a {
@@ -68,8 +69,8 @@ a {
     clear: both;
     max-height: 0;
     transition: max-height .2s ease-out;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-size: 30px;
 }
 
@@ -149,7 +150,7 @@ a {
         float: left;
     }
     .header li a {
-        padding: 20px 30px;
+        padding: 20px 20px;
     }
     .header .menu {
         clear: none;
@@ -171,18 +172,17 @@ a {
     text-align: left;
     line-height: 96%;
     letter-spacing: 5px;
-    left: 60%;
+    left: 63%;
     bottom: 0%;
     top: 40%;
 }
 
 .button {
-    font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
     font-size: 30px;
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
     border: 0px;
     background-color: #a69177;
     color: #fff;
@@ -494,7 +494,7 @@ hr {
 }
 
 .mobile-image {
-	display: none;
+    display: none;
 }
 
 @media (max-width: 768px) {
@@ -510,29 +510,22 @@ hr {
     .wertetext {
         font-size: 40px;
     }
-	
-	.slideshow-oben {
-		display: none;
-	}
-	
-	.mobile-image {
-		display: block;
-	}
-	
-	.mobile.firstslide {
-		position: relative;
-		
-	}
-	
-	.mobiletext {
-		padding-right: 90%;
-	}
-	
-	.mobilebutton {
-		display: none;
-	}
-	
-	.desktop-produkt {
-		display: none;
-	}
+    .slideshow-oben {
+        display: none;
+    }
+    .mobile-image {
+        display: block;
+    }
+    .mobile.firstslide {
+        position: relative;
+    }
+    .mobiletext {
+        padding-right: 90%;
+    }
+    .mobilebutton {
+        display: none;
+    }
+    .desktop-produkt {
+        display: none;
+    }
 }
