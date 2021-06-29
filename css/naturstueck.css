@@ -199,6 +199,10 @@ a {
     padding-left: 10px;
 }
 
+.produkt1text {
+	 list-style-type: none;
+
+}
 
 /*Produkt2*/
 
@@ -219,7 +223,8 @@ a {
 
 .wertetext {
     position: absolute;
-    left: 30%;
+	left: 25%;
+	padding-top: 5%;
     font-size: 90px;
     color: white;
 }
@@ -243,8 +248,8 @@ a {
 /* Über uns */
 
 .portrait {
-    display: flex;
-    justify-content: center;
+	width: 220;
+	height:200px;
 }
 
 .h1 {
@@ -497,6 +502,10 @@ hr {
     display: none;
 }
 
+.mobile-only {
+	display: none;
+}
+
 @media (max-width: 768px) {
     nav ul li {
         flex-direction: column;
@@ -509,6 +518,7 @@ hr {
     }
     .wertetext {
         font-size: 40px;
+		left:20%;
     }
     .slideshow-oben {
         display: none;
@@ -528,4 +538,7 @@ hr {
     .desktop-produkt {
         display: none;
     }
+	.mobile-only {
+		display: block;
+	}
 }
