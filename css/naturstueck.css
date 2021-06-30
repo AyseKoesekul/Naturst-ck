@@ -260,7 +260,7 @@ a {
     position: absolute;
     left: 22%;
     padding-top: 5%;
-    font-size: 90px;
+    font-size: calc(4.2rem + 2vw);
     color: white;
 }
 
@@ -583,10 +583,6 @@ hr {
         width: 70px;
         height: 70px;
         padding: 5px;
-    }
-    .wertetext {
-        font-size: 40px;
-        left: 15%;
     }
     .slideshow-oben {
         display: none;
