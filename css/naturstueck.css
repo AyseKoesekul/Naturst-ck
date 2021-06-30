@@ -8,7 +8,7 @@ body {
 }
 
 .brand-link {
-    padding-left: 10px;
+	padding-left: 10px;
     height: 100px;
     width: 110px;
 }
@@ -172,7 +172,7 @@ a {
     text-align: left;
     line-height: 96%;
     letter-spacing: 5px;
-    left: 63%;
+    left: 60%;
     bottom: 0%;
     top: 40%;
 }
@@ -199,6 +199,20 @@ a {
     padding-left: 10px;
 }
 
+.produkt1text {
+	 list-style-type: none;
+}
+.überschriftdunkel{
+	position: absolute;
+	padding-top: 20px;
+	left: 160%;
+}
+
+.überschrifthell{
+	position: absolute;
+	bottom: 75%;
+	right: 175%;
+}
 
 /*Produkt2*/
 
@@ -211,6 +225,34 @@ a {
 }
 
 
+.bestellendunkel {
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 0px;
+    background-color: #405908;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 2px 2px 4px black;
+}
+
+.bestellenhell {
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 0px;
+    background-color: #405908;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 2px 2px 4px black;
+}
+
 /* Unsere Werte */
 
 #Hände {
@@ -219,7 +261,8 @@ a {
 
 .wertetext {
     position: absolute;
-    left: 30%;
+	left: 25%;
+	padding-top: 5%;
     font-size: 90px;
     color: white;
 }
@@ -243,8 +286,8 @@ a {
 /* Über uns */
 
 .portrait {
-    display: flex;
-    justify-content: center;
+	width: 220;
+	height:200px;
 }
 
 .h1 {
@@ -497,6 +540,36 @@ hr {
     display: none;
 }
 
+.mobile-only {
+	display: none;
+}
+/*tablet*/
+@media (min-width: 769px) and (max-width: 992px) {
+	.mobile-only {
+		display:block;
+	}
+	.desktop-produkt {
+		display: none;
+	}
+	
+	.mobileprodukttext {
+		text-align: center;
+		list-style-type: none;
+		font-size: 30px;
+	}
+	.wertetext {
+        font-size: 60px;
+    }
+	.firstslide {
+		font-size: 40px;
+	}
+	
+	.button {
+		display: none;
+	}
+}
+
+/*mobile*/
 @media (max-width: 768px) {
     nav ul li {
         flex-direction: column;
@@ -509,6 +582,7 @@ hr {
     }
     .wertetext {
         font-size: 40px;
+		left:20%;
     }
     .slideshow-oben {
         display: none;
@@ -518,6 +592,7 @@ hr {
     }
     .mobile.firstslide {
         position: relative;
+		font-size: 50px;
     }
     .mobiletext {
         padding-right: 90%;
@@ -528,4 +603,12 @@ hr {
     .desktop-produkt {
         display: none;
     }
+	.mobile-only {
+		display: block;
+	}
+	.mobileprodukttext {
+		text-align: center;
+		list-style-type: none;
+		font-size: 20px;
+	}
 }
