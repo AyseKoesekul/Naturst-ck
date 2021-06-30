@@ -194,6 +194,20 @@ a {
 
 /*Produkt1 */
 
+.produkt{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1400px; /* rem wert finden */
+    margin: 0 auto;
+}
+
+.produkttext{    
+	 list-style-type: none;
+     column-count: 2;
+
+}
+
 .schoko {
     width: 450px;
     padding-left: 10px;
@@ -278,8 +292,8 @@ a {
 .werte-icon {
     width: 70px;
     height: 70px;
-    display: flex;
-    justify-content: center;
+    display: block;
+    margin: 0 auto 1em;
 }
 
 
