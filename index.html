@@ -74,17 +74,16 @@
     </div>
     <br>
     <!--Produkt1-->
-    <div class="desktop-produkt">
-
+    <div id="Produkte-nav" class="desktop-produkt">
 
         <div class="produkt row align-items-center" style="background-image: url(img/hintergrund_grün.png);">
 
-            <h2 class="offset-9 col-3">Dunkel:</h2>
+            <h2 class="offset-9 col-3 überschriftdunkel"><strong>Dunkel:</strong></h2>
 
 
             <img class="col-5" src="img/Riegel_schoko_.png" class="schoko">
 
-            <ul class="produkttext col-7">
+            <ul class="produkt1text col-7">
                 <li>36% Haferflocken</li>
                 <li>11% Mandeln</li>
                 <li>5% Walnüsse</li>
@@ -94,28 +93,29 @@
             </ul>
 
 
-            <button type="button" class="offset-1 col-3 bestellendunkel">Bestellen</button>
+            <button type="button" class="offset-1 col-3 bestellen">Bestellen</button>
         </div>
 
 
 
-        <div class="mt-5 produkt row align-items-center" style="background-image: url(img/hintergrund_braun.png);">
+        <div class="mt-5 mb-5 produkt row align-items-center" style="background-image: url(img/hintergrund_braun.png);">
 
-            <h2 class="col-12">Dunkel:</h2>
+            <h2 class="col-12 überschrifthell"><strong>Hell:</strong></h2>
 
-            <ul class="produkttext col-7">
-                <li>36% Haferflocken</li>
+            <ul class="produkt2text col-7">
+                <li>32% Haferflocken</li>
                 <li>11% Mandeln</li>
-                <li>5% Walnüsse</li>
-                <li>33% Zartbitterschokolade</li>
-                <li>13% Ahornsirup</li>
+                <li>26% Banane</li>
+                <li>16% Agavendicksaft</li>
+                <li>33% Chiasamen</li>
+				<li>9% Puffreis</li>
                 <li>Prise Meersalz</li>
             </ul>
 
-            <img class="col-5" src="img/Riegel_schoko_.png" class="schoko">
+            <img class="col-5" src="img/Riegel_hell.png" class="hell">
 
 
-            <button type="button" class="offset-8 col-3 bestellendunkel">Bestellen</button>
+            <button type="button" class=" offset-8 col-3 bestellen">Bestellen</button>
         </div>
     </div>
 
@@ -132,7 +132,7 @@
                 <ul class="mobileprodukttext">
                     <!--auch für tablet-->
                     <li>
-                        <h3> Dunkel </h3>
+                        <h3>Dunkel</h3>
                     <li>
                     <li>36% Haferflocken</li>
                     <li>11% Mandeln</li>
@@ -170,7 +170,7 @@
     </div>
     <!-- Unsere Werte -->
     <div id="Werte-nav">
-        <div class="wertetext">Unsere Werte</div>
+        <div class="wertetext"><strong>UNSERE WERTE</strong></div>
         <img src="img/Hände.jpg" id="Hände">
 
     </div>
@@ -191,7 +191,7 @@
             <img src="img/nachhaltigkeit.png" class="werte-icon">
             <div>
                 <p>
-                    <h2>Wir glauben, dass der Schutz unseres Planeten beim Kleinen anfängt!</h2>
+                    <h3>Wir glauben, dass der Schutz unseres Planeten beim Kleinen anfängt!</h3>
                 </p>
                 <p>Bei der Herstellung des NATURSTÜCKs werden Produkte aus ökologisch-kontrolliertem Anbau verwendet.
                 </p>
@@ -204,7 +204,7 @@
             <img src="img/gluten frei.png" class="werte-icon">
             <div>
                 <p>
-                    <h2>Hast du eine Gluten-<br>unverträglichkeit?</h2>
+                    <h3>Hast du eine Gluten-<br>unverträglichkeit?</h3>
                 </p>
                 <p>NATURSTÜCK bietet eine Möglichkeit, die Ernährung abwechslungsreicher zu gestalten und zu
                     verfeiernern.</p>
@@ -217,10 +217,10 @@
             <img src="img/gmo.png" class="werte-icon">
             <div>
                 <p>
-                    <h2>Wir garantieren, dass unser Riegel 100% GVO-frei ist!</h2>
+                    <h3>Wir garantieren, dass unser Riegel 100% GVO-frei ist!</h3>
                 </p>
                 <p>Bei der Auswahl der Zutaten für das NATURSTÜCK wird besonders darauf geachtet, dass beim Anbau weder
-                    ⁠Pestizide⁠, noch Kunstdünger eingesetzt wird.</p>
+						⁠Pestizide⁠, noch Kunstdünger eingesetzt wird.</p>
             </div>
         </div>
 
@@ -230,7 +230,7 @@
     <!-- Über uns-->
     <div id="Ueber-uns-nav">
         <section class="container">
-            <h2 class="ueber_uns_Titel col-lg-12 d-flex justify-content-center">Über uns</h2>
+            <h2 class="ueber_uns_Titel col-lg-12 d-flex justify-content-center"><strong>ÜBER UNS</strong></h2>
             <div class="row">
                 <div class="ueber_uns-container col-md-4">
                     <img src="img/anastasia.png" class="portrait">
@@ -278,9 +278,9 @@
 
     <!--Sign-up-->
     <form action="action_page.php" style="border:1px solid #ccc">
-        <div class="container">
+        <div class="container signup">
             <p>
-                <h1>MELDE DICH ANFÜR EXKLUSIVE ANGEBOTE & RABATTE</h1>
+                <h2>MELDE DICH AN FÜR EXKLUSIVE ANGEBOTE & RABATTE</h2>
             </p>
 
             <label for="name"><b></b></label>
@@ -310,7 +310,7 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-3">
+                <div class="col-md-4 col-lg-3">
                     <h5>Naturstück</h5>
                     <ul>
                         <li><a href="#">Produkte</a></li>
@@ -319,14 +319,14 @@
                         <li><a href="#">Bestellen</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-md-4 col-lg-3">
                     <h5>Produkte</h5>
                     <ul>
                         <li><a href="#">Dunkel</a></li>
                         <li><a href="#">Hell</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-md-4 col-lg-3">
                     <h5>Soziale Medien</h5>
                     <p>
                         <div class="social-networks">
@@ -347,7 +347,7 @@
                         </div>
 
                 </div>
-                <div class="col-lg-3">
+                <div class="col-md-12 col-lg-3">
                     <h3 class="logo"><img src="img/thumbnail.png" id="logo-image"></h3>
                 </div>
             </div>
