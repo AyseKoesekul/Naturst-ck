@@ -202,23 +202,25 @@ a {
     /* rem wert finden */
     margin: 0 auto;
 }
-.überschriftdunkel{
-	color: #405908;
+
+.überschriftdunkel {
+    color: #405908;
 }
 
 .überschrifthell {
-	color: white;
+    color: white;
 }
+
 .produkt1text {
     list-style-type: none;
     column-count: 2;
-	color: #405908;
+    color: #405908;
 }
 
 .produkt2text {
     list-style-type: none;
     column-count: 2;
-	color: white;
+    color: white;
 }
 
 .schoko {
@@ -246,6 +248,7 @@ a {
     text-decoration: none;
     box-shadow: 2px 2px 4px black;
 }
+
 
 /* Unsere Werte */
 
@@ -315,9 +318,11 @@ a {
 * {
     box-sizing: border-box
 }
+
 .signup {
-	background-color: rgba(200, 223, 147, 0.7);
+    background-color: rgba(200, 223, 147, 0.7);
 }
+
 
 /* Full-width input fields */
 
@@ -564,7 +569,6 @@ hr {
     .button {
         display: none;
     }
-
 }
 
 
