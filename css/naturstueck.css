@@ -8,9 +8,12 @@ body {
 }
 
 .brand-link {
+	padding-top:10px;
     padding-left: 10px;
     height: 100px;
-    width: 110px;
+    width: 100px;
+	transform: scale(2);
+	transform-origin: 0;
 }
 
 
@@ -24,7 +27,7 @@ a {
 /* header */
 
 .header {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: #405908;
     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
     position: fixed;
     width: 100%;
@@ -32,7 +35,7 @@ a {
 }
 
 .header ul menu {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: #405908;;
 }
 
 .header ul {
@@ -44,9 +47,10 @@ a {
 
 .header li a {
     display: block;
-    padding: 20px 20px;
+    padding: 15px 15px;
     border-right: 1px solid #f4f4f4;
     text-decoration: none;
+	color: white;
 }
 
 .header li a:hover,
@@ -71,7 +75,7 @@ a {
     transition: max-height .2s ease-out;
     padding-top: 5px;
     padding-bottom: 5px;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 
@@ -178,7 +182,7 @@ a {
 }
 
 .button {
-    font-size: 0.6em;
+    font-size: 0.5em;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 30px;
@@ -189,6 +193,7 @@ a {
     border-radius: 5px;
     text-decoration: none;
     box-shadow: 2px 2px 4px black;
+	white-space: nowrap;
 }
 
 
@@ -545,6 +550,11 @@ hr {
     display: none;
 }
 
+.mobileproduktimage {
+	max-width: 70%;
+	padding: 10%;
+	margin-left: 18%;
+}
 
 /*tablet*/
 
