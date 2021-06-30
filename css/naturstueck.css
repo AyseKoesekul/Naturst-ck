@@ -233,6 +233,10 @@ a {
     padding-left: 10px;
 }
 
+.desktop-produkt {
+	margin: 5%;
+}
+
 
 /*Produkt2*/
 
@@ -263,10 +267,10 @@ a {
 
 .wertetext {
     position: absolute;
-    left: 22%;
     padding-top: 5%;
     font-size: calc(4.2rem + 2vw);
     color: white;
+	left: 22%;
 }
 
 .wertepacket {
@@ -620,4 +624,7 @@ hr {
         list-style-type: none;
         font-size: 20px;
     }
+	.wertetext {
+		font-size: 35px;
+	}
 }
