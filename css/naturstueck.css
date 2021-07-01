@@ -8,12 +8,12 @@ body {
 }
 
 .brand-link {
-	padding-top:10px;
+    padding-top: 10px;
     padding-left: 10px;
     height: 100px;
     width: 100px;
-	transform: scale(2);
-	transform-origin: 0;
+    transform: scale(2);
+    transform-origin: 0;
 }
 
 
@@ -35,7 +35,8 @@ a {
 }
 
 .header ul menu {
-    background-color: #405908;;
+    background-color: #405908;
+    ;
 }
 
 .header ul {
@@ -50,7 +51,7 @@ a {
     padding: 15px 15px;
     border-right: 1px solid #f4f4f4;
     text-decoration: none;
-	color: white;
+    color: white;
 }
 
 .header li a:hover,
@@ -193,7 +194,7 @@ a {
     border-radius: 5px;
     text-decoration: none;
     box-shadow: 2px 2px 4px black;
-	white-space: nowrap;
+    white-space: nowrap;
 }
 
 
@@ -234,7 +235,7 @@ a {
 }
 
 .desktop-produkt {
-	margin: 5%;
+    margin: 5%;
 }
 
 
@@ -270,7 +271,7 @@ a {
     padding-top: 5%;
     font-size: calc(4.2rem + 2vw);
     color: white;
-	width: 100%;
+    width: 100%;
 }
 
 .wertepacket {
@@ -474,7 +475,7 @@ hr {
 /*Footer*/
 
 #myFooter {
-    background-color: #2E5900;
+    background-color: #405908;
     color: white;
     padding-top: 30px;
 }
@@ -555,10 +556,11 @@ hr {
 }
 
 .mobileproduktimage {
-	max-width: 70%;
-	padding: 10%;
-	margin-left: 18%;
+    max-width: 70%;
+    padding: 10%;
+    margin-left: 18%;
 }
+
 
 /*tablet*/
 
@@ -624,7 +626,7 @@ hr {
         list-style-type: none;
         font-size: 20px;
     }
-	.wertetext {
-		font-size: 35px;
-	}
+    .wertetext {
+        font-size: 35px;
+    }
 }
