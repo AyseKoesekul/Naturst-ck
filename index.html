@@ -85,7 +85,7 @@
             <h2 class="offset-9 col-3 überschriftdunkel mt-5"><strong>Dunkel:</strong></h2>
 
 
-            <img class="col-5" src="img/Riegel_schoko_.png" class="schoko" alt="schokoRiegel">
+            <img class="col-5 schoko" src="img/Riegel_schoko_.png"  alt="schokoRiegel">
 
             <ul class="produkt1text col-7">
                 <li>36% Haferflocken</li>
@@ -116,7 +116,7 @@
                 <li>Prise Meersalz</li>
             </ul>
 
-            <img class="col-5" src="img/Riegel_hell.png" class="hell" alt="hellerRiegel">
+            <img class="col-5 hell" src="img/Riegel_hell.png" alt="hellerRiegel">
 
 
             <button type="button" class=" offset-5 col-3 bestellen">Bestellen</button>
@@ -177,7 +177,7 @@
     <!-- Unsere Werte -->
     <div id="Werte-nav">
         <div class="wertetext"><center><strong>UNSERE WERTE</strong></center></div>
-        <img src="img/Haende.jpg" id="Hände">
+        <img src="img/Haende.jpg" id="Hände" alt="haende">
 
     </div>
     
@@ -187,9 +187,9 @@
         <div class="werte-container col-sm-6 col-xl-3">
             <img src="img/vegan.png" class="werte-icon" alt="VeganIcon">
             <div>
-                <p>
+			
                     <h2>Ernährung ist gesund!</h2>
-                </p>
+					
                 <p>Mehere Studien beweisen, dass vegane Ernährung mehr Antioxidantien, Potassium, Magnesium, Folsäure und andere essentielle Vitamine und Mineralien enthält.</p>
                 <p>Deshalb ist das NATURSTÜCK eine perfekte Ergänzung zu deinen täglichen Nährstoffen.</p>
             </div>
@@ -198,9 +198,8 @@
         <div class="werte-container col-sm-6 col-xl-3">
             <img src="img/nachhaltigkeit.png" class="werte-icon" alt="NachhaltigkeitIcon">
             <div>
-                <p>
                     <h3>Nachhaltigkeit fängt beim kleinen an!</h3>
-                </p>
+					
                 <p>Bei der Herstellung des NATURSTÜCKs werden Produkte aus ökologisch-kontrolliertem Anbau verwendet.
                 </p>
                 <p>Verpackt wird der Riegel in umweltfreundliches, plastikfreies und kompostierbares Haushaltspapier.
@@ -209,13 +208,11 @@
         </div>
 
         <div class="werte-container col-sm-6 col-xl-3">
-            <img src="img/gluten frei.png" class="werte-icon" alt="GlutenfreiIcon">
+            <img src="img/glutenfrei.png" class="werte-icon" alt="GlutenfreiIcon">
             <div>
-                <p>
                     <h3>Gluten-<br>unverträglichkeit?</h3>
-                </p>
-                <p>NATURSTÜCK bietet eine Möglichkeit, die Ernährung abwechslungsreicher zu gestalten und zu verfeiernern.
-                </p>
+                
+                <p>NATURSTÜCK bietet eine Möglichkeit, die Ernährung abwechslungsreicher zu gestalten und zu verfeiernern.</p>
                 <p>Um die Vermischung mit anderen Getreidearten zu vermeiden, gehen wir mit besonderer Sorgfalt vor – vom Saatgut bis zur Verpackung.</p>
             </div>
         </div>
@@ -223,9 +220,8 @@
         <div class="werte-container col-sm-6 col-xl-3">
             <img src="img/gmo.png" class="werte-icon" alt="GMOIcon">
             <div>
-                <p>
                     <h3>Unser Riegel ist 100% GVO-frei!</h3>
-                </p>
+					
                 <p>Bei der Auswahl der Zutaten für das NATURSTÜCK wird besonders darauf geachtet, dass beim Anbau weder ⁠Pestizide⁠, noch Kunstdünger eingesetzt wird.</p>
             </div>
         </div>
@@ -286,14 +282,11 @@
             
     <form action="action_page.php" style="border:1px solid #ccc">
         <div class="container signup">
-            <p>
+		
                 <h2>MELDE DICH AN FÜR EXKLUSIVE ANGEBOTE & RABATTE</h2>
-            </p>
 
-            <label for="name"><b></b></label>
             <input type="text" placeholder="Deine E-Mail" name="name" required>
 
-            <label for="e-mail"><b></b></label>
             <input type="text" placeholder="Dein Name" name="e-mail" required>
 
             <button type="submit" class="signupbtn">></button>
@@ -342,20 +335,26 @@
                     <h5>Soziale Medien</h5>
                     <p>
                         <div class="social-networks">
-                            <a href="#" class="tiktok" alt="TikTokIcon">
-                                <img src="img/tt.png" width=20% height=20%>
+						<div>
+                            <a href="#" class="tiktok">
+                                <img src="img/tt.png" class="socialicons" alt="tiktokIcon">
                             </a>
-                            <a href="#" class="facebook" alt="FacebookIcon">
-                                <img src="img/facebook.png" width=20% height=20%>
+						</div>
+						<div>
+                            <a href="#" class="facebook">
+                                <img src="img/facebook.png" class="socialicons" alt="facebookIcon">
                             </a>
-                            <p>
-                                <a href="#" class="instagram" alt="InstagramIcon">
-                                    <img src="img/instagram.png" width=20% height=20%>
+						</div>
+						<div>
+                            <a href="#" class="instagram">
+                                <img src="img/instagram.png" class="socialicons" alt="instagramIcon">
+                            </a>
+						</div>
+						<div>
+                                <a href="#">
+                                    <img src="img/youtube.png" class="socialicons" alt="YoutubeIcon">
                                 </a>
-                                <a href="#" class="youtube" alt="YoutubeIcon">
-                                    <img src="img/youtube.png" width=20% height=20%>
-                                </a>
-                            </p>
+						</div>
                         </div>
 
                 </div>

@@ -547,6 +547,16 @@ hr {
     -webkit-flex: 0 0 auto;
 }
 
+#icons {
+	max-width: 20%;
+	max-height: 20%;
+}
+.socialicons {
+	width: 20%;
+	height: 20%;
+}
+/**/
+
 .mobile-image {
     display: none;
 }
